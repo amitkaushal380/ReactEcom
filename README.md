@@ -1,2 +1,2 @@
 # ecom
-Ecommerce websit test in ReactJS
+Ecommerce website test in ReactJS
