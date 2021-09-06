@@ -6,11 +6,13 @@ const SingleProduct = () => {
   const [product, setProduct] = useState({});
   const params = useParams();
   const history = useHistory();
-  // console.log(params);
+   console.log(params);
+
 
   useEffect(() => {
     getroductDetailData();
-  }, [params.id]);
+ 
+  }, []);
 
   const getroductDetailData = async () => {
     await fetch(`https://fakestoreapi.com/products/${params.id}`)
